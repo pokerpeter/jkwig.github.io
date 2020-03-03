@@ -1,0 +1,364 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    margin: 0px;
+    padding: 0px;
+}
+input {
+    margin: 0px;
+    padding: 0px;
+}
+textarea {
+    margin: 0px;
+    padding: 0px;
+}
+select {
+    margin: 0px;
+    padding: 0px;
+}
+td {
+    margin: 0px;
+    padding: 0px;
+}
+th {
+    margin: 0px;
+    padding: 0px;
+}
+em {
+    font-style: normal;
+}
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+[id^='cnzz_stat_icon'] {
+    display: none !important;
+}
+body {
+    background: #2db7f5;
+    color: rgb(255, 255, 255);
+    font-family: Microsoft Yahei;
+    -ms-word-break: break-all;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.box {
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 7px;
+    border: 7px solid rgb(35, 24, 21);
+    border-image: none;
+    color: rgb(35, 24, 21);
+}
+.header {
+    background: url("img/topbg.jpg") no-repeat 50% / 100% 100%;
+    transition:0.3s;
+    height: 506px;
+    text-align: center;
+    -webkit-transition: all .3s;
+}
+.header .dn {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.header .dn h1 {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 120px;
+}
+.header .mean {
+    font-size: 24px;
+}
+.header .box {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.header .box span {
+    line-height: 1;
+    display: block;
+}
+.header .box b {
+    line-height: 1;
+    display: block;
+}
+.header .box b {
+    color: rgb(15, 3, 0);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.header .box span {
+    color: rgb(62, 58, 57);
+    font-size: 28px;
+    font-weight: bold;
+}
+.header .bb {
+    margin: 0px auto;
+    width: 100px;
+    position: relative;
+}
+/*.header .bb::after {
+    background: url("img/box.png") no-repeat;
+    left: -326px;
+    top: -22px;
+    width: 151px;
+    height: 105px;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    content:"";
+}*/
+.header:hover {
+    background-size: 103% 103%;
+}
+.content {
+    margin: 0px auto;
+    padding: 50px 0px 30px;
+    width: 1180px;
+    overflow: hidden;
+}
+.content .left {
+    width: 50%;
+    font-size: 27px;
+    float: left;
+}
+.content .left .head {
+    margin-bottom: 10px;
+}
+.content .left .head::before {
+
+}
+.content .left .linkhead {
+    width: 155px;
+    height: 155px;
+    margin-right: 35px;
+    vertical-align: middle;
+    display: inline-block;
+    content:"";
+}
+.content .left .linkhead img{
+    width: 134px;
+    height: 133px;
+}
+.content .left .head ul {
+    vertical-align: middle;
+    display: inline-block;
+}
+.content .left .head ul .name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.content .left .contact::before {
+
+}
+.content .left .wxcode{
+    width: 155px;
+    height: 155px;
+    vertical-align: middle;
+    display: inline-block;
+    content:"";
+}
+.content .left .wxcode img{
+    width: 133px;
+    height: 133px;
+}
+.content .left .contact ul {
+    vertical-align: middle;
+    display: inline-block;
+}
+.content .left .contact ul li {
+    line-height: 40px;
+}
+.content .left .contact ul b {
+    text-align: right;
+    display: inline-block;
+}
+.content .right {
+    width: 50%;
+    padding-top: 10px;
+    float: right;
+}
+.content .right .box h2 {
+    color: rgb(20, 187, 233);
+    font-size: 38px;
+}
+.content .right .box p {
+    line-height: 34px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content .right .box p.e {
+    color: rgb(62, 58, 57);
+    line-height: 24px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+@media screen and (max-width:1200px) and (min-width:980px) {
+    .header {
+        height: 495px;
+    }
+    .header .dn {
+        padding-top: 80px;
+    }
+    .header .dn h1 {
+        font-size: 120px;
+    }
+    .content {
+        padding: 40px 0px 70px;
+        width: 980px;
+    }
+    .content .left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .content .left .head {
+        width: 50%;
+        float: left;
+    }
+    .content .left .wx {
+        width: 50%;
+        float: left;
+    }
+    .content .right {
+        width: 100%;
+    }
+}
+@media screen and (max-width:979px) {
+    .header {
+        padding: 0px 10px;
+        height: 290px;
+    }
+    .header .dn {
+        padding-top: 40px;
+    }
+    .header .dn h1 {
+        font-size: 45px;
+    }
+    .header .mean {
+        font-size: 14px;
+    }
+    .header .bb {
+        display: none;
+    }
+    .header .box {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .header .box b {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .header .box span {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .content {
+        padding: 30px 0px 40px;
+        width: 90%;
+    }
+    .content .left {
+        width: 100%;
+        font-size: 16px;
+        float: none;
+    }
+    .content .left .head {
+        padding: 0px 7px;
+    }
+    .content .left .wx {
+        padding: 0px 7px;
+    }
+    .content .left .head {
+        margin-bottom: 10px;
+    }
+    .content .left .head::before {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+    .content .left .head ul {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .content .left .head ul .name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .content .left .wx::before {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+    .content .left .wx ul {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .content .left .wx ul li {
+        line-height: 25px;
+    }
+    .content .left .wx ul b {
+        display: inline;
+    }
+    .content .right {
+        width: 100%;
+        padding-top: 25px;
+        float: none;
+    }
+    .content .right .box {
+        padding: 20px;
+    }
+    .content .right .box h2 {
+        font-size: 18px;
+    }
+    .content .right .box p {
+        line-height: 25px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .content .right .box p.e {
+        line-height: 24px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
